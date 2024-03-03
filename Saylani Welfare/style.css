@@ -257,3 +257,234 @@ nav .btn-success {
   }
 }
 /* Section 2 Ended  */
+
+/* Section 3 Started  */
+.section-three {
+  display: flex;
+  flex-direction: column;
+}
+.section-three h2 {
+  text-align: center;
+  padding: 30px;
+}
+.section-three .features {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+.section-three .feature {
+  border-radius: 10px;
+  padding: 7px;
+  color: #000000d9;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  height: 120px;
+  width: 150px;
+  background-color: #f0fcda;
+  cursor: pointer;
+}
+.section-three .cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  gap: 20px;
+}
+.section-three .card h5 {
+  position: absolute;
+  bottom: 42px;
+  left: 22px;
+  color: #ffffff;
+}
+.section-three .card a {
+  font-size: 14px;
+  position: absolute;
+  bottom: 4px;
+  left: 19px;
+}
+.section-three .card img {
+  filter: brightness(0.3);
+}
+@media only screen and (max-width: 600px) {
+  .section-three h2 {
+    font-size: 30px;
+  }
+  .section-three .features {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 15px;
+  }
+  .section-three .feature {
+    text-align: center;
+    width: 100%;
+  }
+  .section-three .cards {
+    flex-direction: column;
+    width: 100%;
+    padding: 8px;
+  }
+  .section-three .card h5 {
+    position: absolute;
+    bottom: 42px;
+    left: 22px;
+  }
+  .section-three .card a {
+    position: absolute;
+    bottom: 10px;
+    left: 19px;
+  }
+  .section-three .card img {
+    filter: brightness(0.3);
+  }
+}
+/* Section 3 Ended  */
+
+/* Section 4 Started  */
+.section-four h2 {
+  text-align: center;
+  padding: 20px 0px;
+}
+.section-four .cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 98% !important;
+  gap: 20px;
+  margin: 25px;
+  cursor: pointer;
+}
+.section-four .card {
+  width: 18rem;
+  height: 42vh;
+}
+.section-four .cards h5 {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.85);
+}
+.section-four .cards p {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.85);
+}
+.section-four .cards img {
+  filter: brightness(0.5);
+}
+@media only screen and (max-width: 600px) {
+  .section-four .cards {
+    width: 26rem;
+    margin: 7px;
+  }
+  .section-four .card {
+    height: 38vh;
+    width: 100vw;
+  }
+  .section-four .cards img {
+    object-fit: cover;
+  }
+}
+/* Section 4 Ended  */
+
+/* Section 5 Started  */
+.section-five {
+  background-image: url(Img/bgbf.png);
+  background-repeat: no-repeat;
+  background-color: #0d6db7;
+  color: rgba(0, 0, 0, 0.85);
+  margin: 25px;
+}
+.section-five h2 {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 45px;
+  padding-bottom: 0px;
+}
+.section-five .form-control {
+  background-color: transparent;
+  padding: 15px;
+}
+.section-five .input-group {
+  margin: 0 auto;
+  color: #000;
+  width: 50%;
+  padding-top: 10px;
+}
+.section-five .btn-light {
+  color: rgba(0, 0, 0, 0.85) !important;
+  font-size: 14px;
+  padding: 10px 0px;
+  margin-bottom: 40px;
+  position: relative;
+  left: 302px;
+  width: 50%;
+}
+@media only screen and (max-width: 600px) {
+  .section-five {
+    margin: 8px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+  .section-five .form-control {
+    padding: 12px;
+  }
+  .section-five .input-group {
+    width: 80%;
+  }
+  .section-five .btn-light {
+    font-size: 14px;
+    padding: 10px 0px;
+    margin-bottom: 40px;
+    left: 41px;
+    width: 80%;
+  }
+}
+/* Section 5 Ended  */
+
+/* Section 6 Started  */
+.section-six {
+  background-color: #424242;
+  background-image: url(Img/bgf.png);
+  background-repeat: no-repeat;
+  opacity: 1;
+  padding: 50px 0px;
+}
+.about {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: transparent;
+  cursor: pointer;
+}
+.about h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.about p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.copyright p {
+  text-align: center;
+  color: #fff;
+}
+@media only screen and (max-width: 600px) {
+  .about {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .about img {
+    padding-bottom: 28px;
+  }
+  .copyright p {
+    text-align: center;
+  }
+}
+/* Section 6 Ended  */
+
+/* Main Ended  */
